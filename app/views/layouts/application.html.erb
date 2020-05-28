@@ -7,6 +7,16 @@
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+
+    <div>
+      <%= link_to "Home", "/home", class: "nav-link" %>
+      <%= link_to "SpeechToText", "/stt", class: "nav-link" %>
+      <%= link_to "TextToSpeech", "/tts", class: "nav-link" %>
+    </div>
+
+
+
   </head>
 
   <body>
